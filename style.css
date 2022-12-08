@@ -157,7 +157,7 @@ header p {
 }
 
 .main .form input {
-  color: #d3d3d3;
+  color: black;
   border: 2px solid #d3d3d3;
   padding: 0px 7px;
   height: 40px;
@@ -268,11 +268,18 @@ header p {
   .search {
     border: 2px solid #017dcc;
     display: flex;
-    height: 35px;
+    height: 50px;
     background-color: transparent;
     border-radius: 7px;
     margin-top: 100px;
+    margin-bottom: 20px;
     width: 100%;
+  }
+
+  .search img {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    margin-left: 12px;
   }
 
   .links {
@@ -283,18 +290,36 @@ header p {
     margin: 0px;
   }
 
+  .links div a {
+    color: #017dcc;
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+  }
+
   .main {
     display: flex;
     flex-direction: column;
     margin: 0px;
   }
 
+  .main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 60px 0px 30px 0px;
+  }
+
   .main .form label {
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    letter-spacing: -0.02em;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
     color: #017dcc;
     margin: 20px 0px 10px 0px;
   }
@@ -305,8 +330,48 @@ header p {
     width: 320px;
   }
 
+  .main .form .img {
+    margin: 35px 5px 0px 5px;
+  }
+
   .main .form .frames .img {
     width: 70px;
     height: 70px;
+  }
+
+  .main .form .view {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #017dcc;
+  }
+
+  .main .form .pre {
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+  }
+  
+
+  .main .form button {
+    margin: 25px auto;
+    width: 85px;
+    height: 40px;
+    background: #017dcc;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  
+  .main .form .btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 10px 50px 10px;
   }
 }

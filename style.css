@@ -301,13 +301,12 @@ header p {
 
   .main .form .frames {
     display: flex;
-    /* margin: 0 auto; */
     overflow: hidden;
     width: 320px;
   }
 
   .main .form .frames .img {
-width: 70px;
-height: 70px;
+    width: 70px;
+    height: 70px;
   }
 }

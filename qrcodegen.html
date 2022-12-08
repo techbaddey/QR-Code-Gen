@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Gen</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/arrow-2.png" width="25.2px" height="30.68px" />
+      <p>Create QR Code</p>
+    </div>
+    <header>
+      <img
+        class="logo"
+        src="images/qrcode-logo.png"
+        alt="QR Code"
+        width="70px"
+        height="70px"
+      />
+      <p>Create QR code</p>
+      <div class="search">
+        <img
+          src="images/search-btn.png"
+          alt="search"
+          width="19px"
+          height="19px"
+        />
+        <input type="search" placeholder="Search" />
+      </div>
+    </header>
+    <section class="links">
+      <div>
+        <a href="#">Link </a>
+      </div>
+      <div>
+        <a href="#">Website </a>
+      </div>
+      <div>
+        <a href="#">Email </a>
+      </div>
+      <div>
+        <a href="#">PDF </a>
+      </div>
+      <div>
+        <a href="#">Wi fi </a>
+      </div>
+      <div>
+        <a href="#">Vcard </a>
+      </div>
+      <div>
+        <a href="#">Menu </a>
+      </div>
+      <div>
+        <a href="#">Coupon </a>
+      </div>
+      <div>
+        <a href="#">Business </a>
+      </div>
+      <div>
+        <a href="#">Image </a>
+      </div>
+      <div>
+        <a href="#">WhatsApp </a>
+      </div>
+      <div>
+        <a href="#">SMS </a>
+      </div>
+    </section>
+
+    <section class="main">
+      <p>Please select the type of QR Code</p>
+      <div class="form">
+        <label for="name">Name of your QR Code</label>
+        <input
+          type="text"
+          spellcheck="false"
+          placeholder="enter name of QR Code"
+        />
+        <label for="url">Enter URL</label>
+        <input
+          class="url"
+          type="text"
+          spellcheck="false"
+          placeholder="https://www."
+        />
+        <label for="frame">Select Frame</label>
+        <div class="frames">
+          <img
+            class="img"
+            src="images/frame-1.png"
+            alt="frame-1"
+            width="120px"
+            height="100px"
+          />
+          <img
+            class="img"
+            src="images/frame-2.png"
+            alt="frame-2"
+            width="100px"
+            height="100px"
+          />
+          <img
+            class="img"
+            src="images/frame-3.png"
+            alt="frame-3"
+            width="100px"
+            height="100px"
+          />
+          <img
+            class="img"
+            src="images/frame-4.png"
+            alt="frame-4"
+            width="100px"
+            height="100px"
+          />
+        </div>
+        <p class="view">
+          View all
+          <img src="images/arrow.png" alt="" width="20px" height="20px" />
+        </p>
+        <p class="pre">Preview</p>
+        <div class="qr-code">
+          <img class="code" src="" />
+        </div>
+        <button>Save</button>
+        <label for="format">Select Format</label>
+        <select name="" id="">
+          <option value="png">PNG</option>
+          <option value="jpg">JPG</option>
+          <option value="svg">SVG</option>
+        </select>
+        <div class="btns">
+          <button>Download</button>
+          <button>Share</button>
+          <button>Print</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -224,6 +224,7 @@ header p {
 @media screen and (max-width: 950px) {
   body {
     background-color: white;
+    padding: 0px 20px;
   }
 
   .header {
@@ -245,7 +246,7 @@ header p {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    color: #222224;
+    color: #017dcc;
     text-align: center;
     margin: 0 auto;
   }
@@ -277,7 +278,6 @@ header p {
   .links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* row-gap: 60px; */
     align-items: center;
     justify-items: center;
     margin: 0px;
@@ -287,5 +287,27 @@ header p {
     display: flex;
     flex-direction: column;
     margin: 0px;
+  }
+
+  .main .form label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: #017dcc;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .main .form .frames {
+    display: flex;
+    /* margin: 0 auto; */
+    overflow: hidden;
+    width: 320px;
+  }
+
+  .main .form .frames .img {
+width: 70px;
+height: 70px;
   }
 }
